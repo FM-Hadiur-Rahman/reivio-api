@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 
 const Booking = require("../models/Booking");
 const User = require("../models/User");
-const sendEmail = require("../utils/sendEmail");
+const sendEmail = require("../utils/email/sendEmail");
 const generateToken = require("../utils/generateToken");
 const { cloudinary } = require("../config/cloudinary"); // adjust the path if needed
 
